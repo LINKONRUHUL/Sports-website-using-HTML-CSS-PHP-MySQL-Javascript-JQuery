@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+body{ background-image:url(shuvro.jpg);background-repeat: no-repeat; background-attachment: fixed;background-position: center;}
+.fix{overflow:hidden;}
+.main{width:960px;margin:0 auto;display:block;background:#FFF;margin-top:10px;}
+.header{background:#000000;background: #000000;padding-bottom: 43px;}
+.header h1{color:#FFF;padding-left:355px;padding-top: 31px;font-size: 41px;font-style: inherit;}
+.navigation_bar{background:#9966FF;}
+.navigation_bar ul{margin:0;padding:0;list-style:none;}
+.navigation_bar ul li{float:left;padding:10px 15px;border-left-style:groove;}
+.navigation_bar ul li a{text-decoration:none;color:#000;font-family: sans-serif;
+font-size: 20px;}
+.navigation_bar ul li:hover{background:#900;}
+
+.live_score{background: burlywood; margin-top: 11px; padding-bottom: 10px;}
+
+.update{background:#FFFFFF;}
+.update h3{color:#000000;}
+
+.content{width:960px;}
+.sidebar{margin-top:25px;}
+.sidebar{width:190px;margin-right:30px;background:#999999;;float:left;padding:20px;padding-bottom:87px;}
+.sidebar ul{margin:0;padding:0;list-style:none;}
+.sidebar ul li{padding:5px;border-bottom:1px solid #ddd;}
+.sidebar ul li a{text-decoration:none;color: currentcolor;font-family: sans-serif;font-weight: 800;}
+.sidebar ul li:hover{color:#906;}
+
+.content_middle {width: 700px; padding-top: 25px;}
+
+.news1{width:680px;}
+.news1_text{padding-top:10px;font-size: 17px;}
+.news1_p {font-family: sans-serif;font-size: 15px;}
+
+.news1_h1 {
+font-family: fantasy;
+font-size: 36px;
+font-style: initial;
+color: brown;
+}#news1_writer{color: #C00;font-size: 18px; font-style: oblique;}
+#n1{width:650px;height:250px;}
+.hyper_text{text-decoration:none;}
+
+.delete {
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.show_comment_p {font-family: sans-serif;color: deeppink;padding-left: 267px;padding-top: 25px;padding-bottom: 20px;font-weight: 900;}
+
+.show_comment {background: antiquewhite;}
+.comment_show {background: cornsilk;margin-bottom: 6px;font-weight: 800;padding-left:10px;}
+#date{font-size: 11px;color: blue;margin-top: 1px;}
+#comment {font-family: sans-serif;}
+.comment_show_a {text-decoration: none;}
+.comment_p {font-family: fantasy;font-weight: 400;color: chocolate;padding-left: 262px;font-size: x-large;}
+.button {background: darkgray;padding-left: 25px;margin-top: 5px;margin-left: 59px;color: darkmagenta;}
+.comment_form {
+padding-left: 229px;
+padding-top: 10px;
+}
+.footer{width:960px;margin:0 auto;padding-top:25px;background: black;margin-top: 10px;padding-bottom: 20px;}
+.footer_text1{color: darkgray;padding-left: 437px;font-size: x-large;}
+
+.footer_text2{color: darkgray;padding-left: 541px;font-size: larger}
+.footer_text3{color: darkgray;padding-left: 544px;font-family: sans-serif;}
